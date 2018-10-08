@@ -1,0 +1,15 @@
+.typeform-widget {
+    width: 100%;
+    height: 600px;
+}
+
+#typeframe {
+    overflow-x: hidden;
+    text-align: center;
+    display: block;
+    min-height: 500px;
+    width: 95%;
+    /*padding-top: 30px;
+    padding-bottom: 30px;*/
+    border: none;
+}

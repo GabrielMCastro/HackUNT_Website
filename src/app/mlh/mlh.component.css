@@ -1,0 +1,85 @@
+@media only screen and (max-width: 1000000px) {
+    p {
+        font-size: 20px;
+    }
+    h1 {
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    p {
+        font-size: 15px;
+    }
+    h1 {
+        font-size: 25px;
+    }
+}
+  
+@media only screen and (max-width: 320px) {
+    p {
+        font-size: 10px;
+    }
+    h1 {
+        font-size: 25px;
+    }
+}
+
+h1, h2 {
+    font-family: "Raleway";
+    color: white;
+    text-align: center;
+    font-weight: 700;
+}
+
+h1, h2 {
+    font-family: "Raleway";
+    color: white;
+    text-align: center;
+    font-weight: 700;
+}
+
+.mlh-container {
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 14pt;
+}
+
+.mlh-container ul {
+    text-align: left;
+}
+
+a:link {
+    color: rgb(4, 58, 4);
+}
+a:visited {
+    color: black;
+}
+a:hover {
+    /* color: #D48359; */
+    color: black;
+}
+
+.btn {
+    background-color: #000000;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    padding: 10px, 10px;
+    margin-top: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 15px;
+    cursor: pointer;
+    box-shadow: 0px 1px 5px rgb(0, 88, 1);
+    -moz-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+  }
+
+ .btn:hover{
+    background-color: #07a24f;
+  }

@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700');
+
+@media only screen and (max-width: 768px) {
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 320px) {
+  font-size: 10px;
+}
+
+#body
+{
+    color: white;
+    font-size: 14pt;    
+}
+
+h1
+{
+    font-weight: bold;
+    text-align: center;  
+}
+
+#contact
+{
+    margin-top: 20pt;
+    width: 100%;
+}
+
+.contactimg
+{
+    width: 20%;
+    text-align: center;
+    font-size: 14pt;
+    font-size: 2vw;
+    float: left;
+}
+
+.contactimg a
+{
+    color: white;        
+}
+
+p
+{
+    line-height: 200%;
+}
+
+.contactimg
+{
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(5, 122, 60, .75);
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+  }
+  
+  .contactimg:hover .overlay {
+    height: 110%;
+  }
+  
+  .text {
+    white-space: nowrap; 
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+
+a:link {
+    color: rgb(4, 58, 4);
+}
+a:visited {
+    color: black;
+}
+a:hover {
+    /* color: #D48359; */
+    color: black;
+}
